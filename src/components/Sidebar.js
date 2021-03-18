@@ -15,7 +15,7 @@ import {
   PeopleAlt,
 } from "@material-ui/icons";
 import { SidebarOption } from "components";
-import { db } from "../firebase";
+import { db } from "../firebaseConfig";
 import { useCollection } from "react-firebase-hooks/firestore";
 
 const options = [
